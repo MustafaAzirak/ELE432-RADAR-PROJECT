@@ -6,7 +6,7 @@ an ultrasonic sensor and a step motor, while also processing and displaying the 
 The integration of these components allows for precise distance measurements and real-time visualization of the
 surroundings.
 
-![WhatsApp Image 2024-05-21 at 15 44 31_20e76d7a](https://github.com/MustafaAzirak/ELE432-Radar-Project/assets/90838813/16c15f40-5904-4307-b179-eac839cdca94)
+![WhatsApp Image 2024-05-21 at 15 44 31_20e76d7a](https://github.com/MustafaAzirak/ELE432-Radar-Project/assets/90838813/549aa2e6-3c1c-4f08-bcc0-357d89f34719)
 
 Components:
 
