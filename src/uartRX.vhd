@@ -1,8 +1,3 @@
- --Abdullah Furkan Kaya--
---21947396--
---ELE432 PRE#3--
---UART RECEIVER--
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
