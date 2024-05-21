@@ -1,0 +1,229 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -70.340
+TNS   : -1554.722
+
+Type  : Slow 1100mV 85C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.564
+TNS   : -58.770
+
+Type  : Slow 1100mV 85C Model Setup 'ov7670_pclk'
+Slack : -6.700
+TNS   : -23676.850
+
+Type  : Slow 1100mV 85C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.870
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ov7670_pclk'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'hcsr04:hcsr04|output_hunds[0]'
+Slack : 0.807
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -3.172
+TNS   : -353.001
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -2.174
+TNS   : -18425.208
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.779
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.670
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.762
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -72.885
+TNS   : -1602.190
+
+Type  : Slow 1100mV 0C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.125
+TNS   : -54.985
+
+Type  : Slow 1100mV 0C Model Setup 'ov7670_pclk'
+Slack : -6.604
+TNS   : -22941.332
+
+Type  : Slow 1100mV 0C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.417
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ov7670_pclk'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'hcsr04:hcsr04|output_hunds[0]'
+Slack : 0.852
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -3.207
+TNS   : -359.242
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -2.174
+TNS   : -18579.793
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.767
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.673
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.739
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -36.185
+TNS   : -816.469
+
+Type  : Fast 1100mV 85C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -5.565
+TNS   : -43.132
+
+Type  : Fast 1100mV 85C Model Setup 'ov7670_pclk'
+Slack : -3.939
+TNS   : -13006.536
+
+Type  : Fast 1100mV 85C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 11.610
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ov7670_pclk'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'hcsr04:hcsr04|output_hunds[0]'
+Slack : 0.686
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -2.174
+TNS   : -21115.717
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -1.649
+TNS   : -150.085
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.894
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.336
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.880
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -34.659
+TNS   : -772.530
+
+Type  : Fast 1100mV 0C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.576
+TNS   : -35.332
+
+Type  : Fast 1100mV 0C Model Setup 'ov7670_pclk'
+Slack : -3.547
+TNS   : -11303.887
+
+Type  : Fast 1100mV 0C Model Setup 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 12.656
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ov7670_pclk'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'hcsr04:hcsr04|output_hunds[0]'
+Slack : 0.862
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -2.174
+TNS   : -21341.115
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'hcsr04:hcsr04|output_hunds[0]'
+Slack : -1.477
+TNS   : -137.764
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.889
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.286
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_pll_1|clock_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.880
+TNS   : 0.000
+
+------------------------------------------------------------

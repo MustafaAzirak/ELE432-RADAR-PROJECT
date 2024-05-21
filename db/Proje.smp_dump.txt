@@ -1,0 +1,45 @@
+
+State Machine - |project|motor:motor_1|m_states
+Name m_states.ONE_S_WAIT2 m_states.STEP_CHECK_SCND m_states.STEP_CHECK_FRST m_states.s8 m_states.s7 m_states.s6 m_states.s5 m_states.ONE_S_WAIT m_states.s4 m_states.s3 m_states.s2 m_states.s1 m_states.WAIT_CFG_DONE 
+m_states.WAIT_CFG_DONE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+m_states.s1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+m_states.s2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+m_states.s3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+m_states.s4 0 0 0 0 0 0 0 0 1 0 0 0 1 
+m_states.ONE_S_WAIT 0 0 0 0 0 0 0 1 0 0 0 0 1 
+m_states.s5 0 0 0 0 0 0 1 0 0 0 0 0 1 
+m_states.s6 0 0 0 0 0 1 0 0 0 0 0 0 1 
+m_states.s7 0 0 0 0 1 0 0 0 0 0 0 0 1 
+m_states.s8 0 0 0 1 0 0 0 0 0 0 0 0 1 
+m_states.STEP_CHECK_FRST 0 0 1 0 0 0 0 0 0 0 0 0 1 
+m_states.STEP_CHECK_SCND 0 1 0 0 0 0 0 0 0 0 0 0 1 
+m_states.ONE_S_WAIT2 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |project|motor:motor_1|uartRX:uart_receiver|rx_state
+Name rx_state.STOP rx_state.DATA_RECEIVE rx_state.START rx_state.IDLE 
+rx_state.IDLE 0 0 0 0 
+rx_state.START 0 0 1 1 
+rx_state.DATA_RECEIVE 0 1 0 1 
+rx_state.STOP 1 0 0 1 
+
+State Machine - |project|hcsr04:hcsr04|state
+Name state.error_state state.end_state state.hcsr_state state.idle_state state.clear_state 
+state.clear_state 0 0 0 0 0 
+state.idle_state 0 0 0 1 1 
+state.hcsr_state 0 0 1 0 1 
+state.end_state 0 1 0 0 1 
+state.error_state 1 0 0 0 1 
+
+State Machine - |project|send_tx:sendtx|tx_state
+Name tx_state.Tx_s tx_state.TX_distance tx_state.TX_location tx_state.WAIT_TX_DONE 
+tx_state.WAIT_TX_DONE 0 0 0 0 
+tx_state.TX_location 0 0 1 1 
+tx_state.TX_distance 0 1 0 1 
+tx_state.Tx_s 1 0 0 1 
+
+State Machine - |project|send_tx:sendtx|uartTX:uarttx|tx_state
+Name tx_state.STOP tx_state.DATA_TRANSMISSION tx_state.START tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 
+tx_state.START 0 0 1 1 
+tx_state.DATA_TRANSMISSION 0 1 0 1 
+tx_state.STOP 1 0 0 1 
